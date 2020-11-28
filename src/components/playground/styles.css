@@ -1,0 +1,7 @@
+.playground {
+    background-color: rgba(178, 177, 178, 1);
+    height: 800px;
+    width: 800px;
+    border: 1px solid;
+    position: relative;
+}

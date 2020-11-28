@@ -1,0 +1,47 @@
+.button {
+    background-color: rgba(100, 165, 215, 1);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.button:active {
+    border-color: #ffffff;
+}
+
+.button-up {
+    border-top: none;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+.button-down {
+    border-bottom: none;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
+
+.button-left {
+    border-left: none;
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+
+.button-right {
+    border-right: none;
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+
+.button-up, .button-down {
+    height: 149px;
+    width: 498px;
+}
+
+.button-left, .button-right {
+    height: 498px;
+    width: 149px;
+}
